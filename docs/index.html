@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こどもバンク - 公式ドキュメント</title>
+    <link rel="icon" type="image/png" href="./icon.png">
+    <link rel="apple-touch-icon" href="./icon.png">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif; 
+            line-height: 1.8; 
+            color: #333; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background-color: #fff; 
+        }
+        h1 { 
+            font-size: 28px; 
+            margin-bottom: 30px; 
+            padding-bottom: 10px; 
+            border-bottom: 2px solid #4A7C59; 
+            color: #333;
+        }
+        h2 { 
+            font-size: 20px; 
+            margin-top: 30px; 
+            margin-bottom: 15px; 
+            font-weight: bold; 
+            color: #4A7C59;
+        }
+        p { 
+            margin: 15px 0; 
+        }
+        .app-intro { 
+            background-color: #FAF9F6; 
+            padding: 25px; 
+            border-radius: 12px; 
+            margin-bottom: 30px; 
+            border: 1px solid #E6D4C1;
+        }
+        .app-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #4A7C59;
+            margin-bottom: 10px;
+        }
+        .app-subtitle {
+            font-size: 18px;
+            color: #8B6F47;
+            margin-bottom: 20px;
+        }
+        .features {
+            margin: 20px 0;
+        }
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin: 15px 0;
+        }
+        .feature-icon {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #4A7C59;
+        }
+        .feature-text {
+            flex: 1;
+        }
+        .link-section { 
+            margin: 40px 0; 
+        }
+        .link-item { 
+            display: block; 
+            padding: 20px; 
+            margin: 15px 0; 
+            background-color: #FAF9F6; 
+            border-left: 4px solid #4A7C59; 
+            text-decoration: none; 
+            color: #333; 
+            transition: all 0.3s ease; 
+            border-radius: 8px;
+        }
+        .link-item:hover { 
+            background-color: #F5F0E8; 
+            transform: translateX(5px);
+        }
+        .link-title { 
+            font-weight: bold; 
+            color: #4A7C59; 
+            margin-bottom: 5px; 
+            font-size: 18px;
+        }
+        .link-description { 
+            font-size: 14px; 
+            color: #666; 
+        }
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #E6D4C1;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        a { 
+            color: #4A7C59; 
+            text-decoration: none; 
+        }
+        a:hover { 
+            text-decoration: underline; 
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .app-title {
+                font-size: 28px;
+            }
+            .app-subtitle {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .link-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-intro">
+        <div class="app-title">こどもバンク</div>
+        <div class="app-subtitle">お子さまの大切なお金を、かんたん管理</div>
+        
+        <p>
+            こどもバンクは、お子さまがもらったお祝い金や、親御さんが貯めている貯金を
+            簡単に管理できるアプリです。
+        </p>
+
+        <div class="features">
+            <div class="feature-item">
+                <span class="feature-icon">🎁</span>
+                <div class="feature-text">
+                    <strong>お祝い金の記録</strong><br>
+                    いつ、誰から、いくら、なぜもらったのかを簡単に記録できます
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">📈</span>
+                <div class="feature-text">
+                    <strong>利息シミュレーション</strong><br>
+                    複利計算で将来の貯蓄額をシミュレーションできます
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">👨‍👩‍👧‍👦</span>
+                <div class="feature-text">
+                    <strong>複数のお子さま対応</strong><br>
+                    複数のお子さまそれぞれの貯金を個別に管理できます
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">🔒</span>
+                <div class="feature-text">
+                    <strong>プライバシー重視</strong><br>
+                    すべてのデータは端末内に保存され、外部に送信されることはありません
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>ドキュメント</h1>
+
+    <div class="link-section">
+        <a href="privacy-policy/index.html" class="link-item">
+            <div class="link-title">プライバシーポリシー</div>
+            <div class="link-description">
+                お客様の個人情報の取り扱いについて説明しています
+            </div>
+        </a>
+
+        <a href="support/index.html" class="link-item">
+            <div class="link-title">サポート</div>
+            <div class="link-description">
+                アプリの使い方やよくある質問への回答をご覧いただけます
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 こどもバンク. All rights reserved.</p>
+    </footer>
+</body>
+</html>
